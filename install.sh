@@ -73,7 +73,7 @@ AuthName "Restricted Content"
 AuthUserFile /etc/apache2/.htpasswd
 Require valid-user' >> /var/www/html/firegod/.htaccess
 echo '<VirtualHost *:80>
-<Directory "/var/www/html/p">
+<Directory "/var/www/html/firegod">
         AuthType Basic
         AuthName "Restricted Content"
         AuthUserFile /etc/apache2/.htpasswd
